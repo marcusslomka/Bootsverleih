@@ -5,17 +5,10 @@ import de.supercode.Bootsverleih.Categorie;
 import java.util.Objects;
 
 public class Boot {
-    private long id = 0;
+    private long id;
     private String name;
     Categorie categrorie;
     int capacity;
-
-    public Boot(String name, Categorie categrorie, int capacity) {
-        this.id ++;
-        this.name = name;
-        this.categrorie = categrorie;
-        this.capacity = capacity;
-    }
 
     public long getId() {
         return id;
